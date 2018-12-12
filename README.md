@@ -1,13 +1,5 @@
 # Dictionary
-<p align="center">
-  <a href="https://github.com/vivek1996/dictionary-app/issues"><img src="https://img.shields.io/github/issues/vivek1996/dictionary-app.svg?style=flat-square" alt="GitHub issues"></a>
-  <a href="https://github.com/vivek1996/dictionary-app/network"><img src="https://img.shields.io/github/forks/vivek1996/dictionary-app.svg?style=flat-square" alt="GitHub forks"></a>
-    <a href="https://github.com/vivek1996/dictionary-app/stargazers"><img src="https://img.shields.io/github/stars/vivek1996/dictionary-app.svg?style=flat-square" alt="GitHub stars"></a>
-  <a href="https://david-dm.org/vivek1996/dictionary-app"><img src="https://david-dm.org/vivek1996/dictionary-app.svg" alt="DEPENDENCIES"></a>
-  <a href="https://snyk.io/test/github/vivek1996/gity"><img src="https://snyk.io/test/github/vivek1996/gity/badge.svg?style=flat-square" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/vivek1996/gity" style="max-width:100%;"></a>
-  <a href="https://github.com/vivek1996/dictionary-app"><img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="forthebadge"></a>
-</p>
-<br>
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 # Problem Statement
@@ -85,7 +77,7 @@ The data in the definition view is separated based on the grammatical type and e
 (https://forum.oxforddictionaries.com/api/discussion/18/error-message-no-access-control-allow-origin-or-i-can-t-get-my-client-side-request-to-work).
 
 ### P.S:
-The Development version is hosted in AWS and served with the webpack-dev-server, which is used in development. The nginx is configured to redirect all requests for the domain https://lexicon.vivekm.me to the localhost:4200 using proxy_pass as the API does not support CORS requests and client-side requests. The development server is added as the background process in the server using the forever npm package.
+The Development version is hosted in AWS and served with the webpack-dev-server, which is used in development. The nginx is configured to redirect all requests for the domain http://ashudictionary.co.in/search  to the localhost:4200 using proxy_pass as the API does not support CORS requests and client-side requests. The development server is added as the background process in the server using the forever npm package.
 
 
 ## Development server
