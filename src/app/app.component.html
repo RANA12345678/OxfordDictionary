@@ -1,0 +1,54 @@
+<header>
+  <mdb-navbar SideClass="navbar fixed-top navbar-expand-md navbar-dark  red accent-4 scrolling-navbar  ie-nav" [containerInside]="false">
+    <logo>
+      <a class="logo navbar-brand" routerLink="/">
+        <img src="../assets/icons.svg" alt="Dictionary">
+      </a>
+    </logo>
+    <links>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active waves-light" routerLinkActive=" active" mdbWavesEffect>
+          <a class="nav-link white-text" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item waves-light" routerLinkActive=" active" mdbWavesEffect>
+          <a class="nav-link white-text" routerLink="/about">About</a>
+        </li>
+      </ul>
+    </links>
+  </mdb-navbar>
+</header>
+<!--Main Navigation-->
+<div class="container mt-5 mb-5">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="page-footer text-center font-small mt-4 blue accent-4 ">
+  <hr class="my-4">
+  <!-- Social icons -->
+  <div class="pb-4">
+    <a href="https://www.facebook.com/RANA123.rana" target="_blank" rel="noopener">
+      <i class="fa fa-facebook mr-3"></i>
+    </a>
+
+    <a href="https://twitter.com/KumarAshu552" target="_blank" rel="noopener">
+      <i class="fa fa-twitter mr-3"></i>
+    </a>
+
+    <a href="https://plus.google.com/" target="_blank" rel="noopener">
+      <i class="fa fa-google-plus mr-3"></i>
+    </a>
+
+    <a href="https://github.com/account" target="_blank" rel="noopener">
+      <i class="fa fa-github mr-3"></i>
+    </a>
+  </div>
+  <!-- Social icons -->
+
+
+  <div class="footer-copyright py-3">Powered
+    <i class="fa fa-fire p-1 red-text"></i> By
+    <a href="https://en.oxforddictionaries.com" target="_blank" rel="noopener">My Oxford Dictionaries</a>
+  </div>
+
+
+</footer>

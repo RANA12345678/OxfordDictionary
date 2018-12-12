@@ -1,0 +1,14 @@
+{
+  "/api": {
+    "target": "https://od-api.oxforddictionaries.com:443/api/v1/",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "headers": {
+      "Accept": "application/json",
+      "app_id": "65dd1d20",
+      "app_key": "277e99f53db7098f6374f000650952a4"
+    },
+    "pathRewrite": { "^/api": "" }
+  }
+}
